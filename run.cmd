@@ -24,5 +24,8 @@ call !1.bat
 rem runs the compiled executable for !3.bf
 !3
 call .\bin\raku\raku newline.raku
-rem deletes the compiled executables
-del !3.exe d.exe d.pdb o1.exe w.exe
+rem runs the compiled classfile for credit.java
+.\bin\jdk\bin\java credit
+call .\bin\unl contact.unl
+rem deletes the compiled executables and the classfile
+del !3.exe d.exe d.pdb o1.exe w.exe credit.class

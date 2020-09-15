@@ -1,126 +1,142 @@
 {
-    "H": {
-      "lang": "python",
-      "version": "$ py -3 --version\nPython 3.8.5",
-      "cmd": "py -3 script.py",
-      "files": [
-        "h.py"
-      ]
-    },
-    "e": {
-      "lang": "node js",
-      "version": "$ node --version\nv12.18.3",
-      "cmd": "node script.js",
-      "files": [
-        "e.js"
-      ]
-    },
-    "l1": {
-      "lang": "lua",
-      "version": "$ .\\bin\\lua\\lua -v\nLuaJIT 2.1.0-beta1 -- Copyright (C) 2005-2015 Mike Pall. http://luajit.org//",
-      "cmd": "lua script.lua",
-      "files": [
-        "l1.lua"
-      ]
-    },
-    "l2": {
-      "lang": "ruby",
-      "version": "$ruby --version\nruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x64-mingw32]",
-      "cmd": "ruby script.rb",
-      "files": [
-        "l2.rb"
-      ]
-    },
-    "o1": {
-      "lang": "C",
-      "version": "$ .\\bin\\pcc\\bin\\pcc --version\npcc 0.9.9 for win32, gmcgarry@pcc.ludd.ltu.se",
-      "cmd": "pcc script.c -o executable.exe && executable",
-      "files": [
-        "o1.c"
-      ]
-    },
-    "space": {
-      "lang": "julia",
-      "version": "$.\\bin\\julia\\bin\\julia --version\njulia version 1.5.1",
-      "cmd": "julia script.jl",
-      "files": [
-        "space.jl"
-      ]
-    },
-    "W": {
-      "lang": "golang",
-      "version": "$ go version\ngo version go1.15.2 windows/amd64",
-      "cmd": "go build script.go&&script",
-      "files": [
-        "w.go"
-      ]
-    },
-    "o2": {
-      "lang": "bash",
-      "version": "$.\\bin\\bin\\bash --version\nGNU bash, version 4.4.12(3)-release (x86_64-unknown-cygwin)\nCopyright (C) 2016 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\nThis is free software; you are free to change and redistribute\nit.\nThere is NO WARRANTY, to the extent permitted by law.",
-      "cmd": "bash script.bash",
-      "files": [
-        "o2.bash"
-      ]
-    },
-    "r": {
-      "lang": "perl",
-      "version": "$ .\\bin\\bin\\perl --version\nThis is perl 5, version 30, subversion 3 (v5.30.3) built for x86_64-cygwin-threads-multi\n(with 7 registered patches, see perl -V for more detail)\n\nCopyright 1987-2020, Larry Wall\n\nPerl may be copied only under the terms of either the Artistic License or the\nGNU General Public License, which may be found in the Perl 5 source kit.\n\nComplete documentation for Perl, including FAQ lists, should be found on\nthis system using \"man perl\" or \"perldoc perl\".  If you have access to the\nInternet, point your browser at http://www.perl.org/, the Perl Home Page.",
-      "cmd": "perl script.pl",
-      "files": [
-        "r.pl"
-      ]
-    },
-    "l3": {
-      "lang": "php",
-      "version": "$ .\\bin\\php\\php --version\nPHP 7.4.10 (cli) (built: Sep  1 2020 16:52:21) ( NTS Visual C++ 2017 x64 )\nCopyright (c) The PHP Group\nZend Engine v3.4.0, Copyright (c) Zend Technologies",
-      "cmd": "php script.php",
-      "files": [
-        "l3.php"
-      ]
-    },
-    "d": {
-      "lang": "rust",
-      "version": "$ rustc --version\nrustc 1.46.0 (04488afe3 2020-08-24)",
-      "cmd": "rustc script.rs&&script",
-      "files": [
-        "d.rs"
-      ]
-    },
-    "!1": {
-      "lang": "batch",
-      "version": "$ wmic os get version\nVersion\n10.0.19041",
-      "cmd": "call script.bat",
-      "files": [
-        "!1.bat",
-        "build.cmd",
-        "run.cmd",
-        "curldll.cmd",
-        "recurl.cmd"
-      ]
-    },
-    "!2": {
-      "lang": "tcl",
-      "version": "$ echo puts $tcl_version;exit 0 | .\\bin\\tcl\\bin\\tclsh\n8.6",
-      "cmd": "tclsh script.tcl",
-      "files": [
-        "!2.tcl"
-      ]
-    },
-    "!3": {
-      "lang": "brainfuck",
-      "version": "$ .\\bin\\bf\n\nx86 Brainfuck Compiler by mitxela\nhttp://mitxela.com/\n\nUsage: bf infile outfile",
-      "cmd": "bf script.bf executable.exe&&executable",
-      "files": [
-        "!3.bf"
-      ]
-    },
-    "newline": {
-      "lang": "raku",
-      "version": "$ .\\bin\\raku\\raku -v\nThis is Rakudo version 2020.08.2 built on MoarVM version 2020.08\nimplementing Raku 6.d.",
-      "cmd": "raku script.raku",
-      "files": [
-        "newline.raku"
-      ]
-    }
+  "H": {
+    "lang": "python",
+    "version": "$ py -3 --version\nPython 3.8.5",
+    "cmd": "py -3 script.py",
+    "files": [
+      "h.py"
+    ]
+  },
+  "e": {
+    "lang": "node js",
+    "version": "$ node --version\nv12.18.3",
+    "cmd": "node script.js",
+    "files": [
+      "e.js"
+    ]
+  },
+  "l1": {
+    "lang": "lua",
+    "version": "$ .\\bin\\lua\\lua -v\nLuaJIT 2.1.0-beta1 -- Copyright (C) 2005-2015 Mike Pall. http://luajit.org//",
+    "cmd": "lua script.lua",
+    "files": [
+      "l1.lua"
+    ]
+  },
+  "l2": {
+    "lang": "ruby",
+    "version": "$ruby --version\nruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x64-mingw32]",
+    "cmd": "ruby script.rb",
+    "files": [
+      "l2.rb"
+    ]
+  },
+  "o1": {
+    "lang": "C",
+    "version": "$ .\\bin\\pcc\\bin\\pcc --version\npcc 0.9.9 for win32, gmcgarry@pcc.ludd.ltu.se",
+    "cmd": "pcc script.c -o executable.exe && executable",
+    "files": [
+      "o1.c"
+    ]
+  },
+  "space": {
+    "lang": "julia",
+    "version": "$.\\bin\\julia\\bin\\julia --version\njulia version 1.5.1",
+    "cmd": "julia script.jl",
+    "files": [
+      "space.jl"
+    ]
+  },
+  "W": {
+    "lang": "golang",
+    "version": "$ go version\ngo version go1.15.2 windows/amd64",
+    "cmd": "go build script.go&&script",
+    "files": [
+      "w.go"
+    ]
+  },
+  "o2": {
+    "lang": "bash",
+    "version": "$.\\bin\\bin\\bash --version\nGNU bash, version 4.4.12(3)-release (x86_64-unknown-cygwin)\nCopyright (C) 2016 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\nThis is free software; you are free to change and redistribute\nit.\nThere is NO WARRANTY, to the extent permitted by law.",
+    "cmd": "bash script.bash",
+    "files": [
+      "o2.bash"
+    ]
+  },
+  "r": {
+    "lang": "perl",
+    "version": "$ .\\bin\\bin\\perl --version\nThis is perl 5, version 30, subversion 3 (v5.30.3) built for x86_64-cygwin-threads-multi\n(with 7 registered patches, see perl -V for more detail)\n\nCopyright 1987-2020, Larry Wall\n\nPerl may be copied only under the terms of either the Artistic License or the\nGNU General Public License, which may be found in the Perl 5 source kit.\n\nComplete documentation for Perl, including FAQ lists, should be found on\nthis system using \"man perl\" or \"perldoc perl\".  If you have access to the\nInternet, point your browser at http://www.perl.org/, the Perl Home Page.",
+    "cmd": "perl script.pl",
+    "files": [
+      "r.pl"
+    ]
+  },
+  "l3": {
+    "lang": "php",
+    "version": "$ .\\bin\\php\\php --version\nPHP 7.4.10 (cli) (built: Sep  1 2020 16:52:21) ( NTS Visual C++ 2017 x64 )\nCopyright (c) The PHP Group\nZend Engine v3.4.0, Copyright (c) Zend Technologies",
+    "cmd": "php script.php",
+    "files": [
+      "l3.php"
+    ]
+  },
+  "d": {
+    "lang": "rust",
+    "version": "$ rustc --version\nrustc 1.46.0 (04488afe3 2020-08-24)",
+    "cmd": "rustc script.rs&&script",
+    "files": [
+      "d.rs"
+    ]
+  },
+  "!1": {
+    "lang": "batch",
+    "version": "$ wmic os get version\nVersion\n10.0.19041",
+    "cmd": "call script.bat",
+    "files": [
+      "!1.bat",
+      "build.cmd",
+      "run.cmd",
+      "curldll.cmd",
+      "recurl.cmd"
+    ]
+  },
+  "!2": {
+    "lang": "tcl",
+    "version": "$ echo puts $tcl_version;exit 0 | .\\bin\\tcl\\bin\\tclsh\n8.6",
+    "cmd": "tclsh script.tcl",
+    "files": [
+      "!2.tcl"
+    ]
+  },
+  "!3": {
+    "lang": "brainfuck",
+    "version": "$ .\\bin\\bf\n\nx86 Brainfuck Compiler by mitxela\nhttp://mitxela.com/\n\nUsage: bf infile outfile",
+    "cmd": "bf script.bf executable.exe&&executable",
+    "files": [
+      "!3.bf"
+    ]
+  },
+  "newline": {
+    "lang": "raku",
+    "version": "$ .\\bin\\raku\\raku -v\nThis is Rakudo version 2020.08.2 built on MoarVM version 2020.08\nimplementing Raku 6.d.",
+    "cmd": "raku script.raku",
+    "files": [
+      "newline.raku"
+    ]
+  },
+  "credit": {
+    "lang": "java",
+    "version": "$ .\\bin\\jdk\\bin\\javac -version&&.\\bin\\jdk\\bin\\java -version\njavac 1.8.0_261\njava version \"1.8.0_261\"\nJava(TM) SE Runtime Environment (build 1.8.0_261-b12)\nJava HotSpot(TM) Client VM (build 25.261-b12, mixed mode)",
+    "cmd": "javac script.java&&java class",
+    "files": [
+      "credit.java"
+    ]
+  },
+  "contact": {
+    "lang": "unlambda",
+    "version": "https://github.com/bwo/unlambda",
+    "cmd": "py -3 unl.py script.unl",
+    "files": [
+      "contact.unl"
+    ]
   }
+}

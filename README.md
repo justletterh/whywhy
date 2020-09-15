@@ -1,5 +1,5 @@
 # About
-This is [this repo](https://github.com/justletterh/why) but only including the code i wrote.
+This is [this repo](https://github.com/justletterh/why) but only including the code i wrote. (soon to be rewritten to depend on all runtimes instead of including some which should make the download extremely small compared to the full version as well as making it *slightly* faster to run)
 # Dependencies
 * [Visual studio c++ build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 * add the path to /bin/pcc to your system enviroment variables as PCCDIR
@@ -25,4 +25,6 @@ This is [this repo](https://github.com/justletterh/why) but only including the c
 * !2 - [TCL](https://www.tcl.tk/)
 * !3 - [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck)
 * newline - [Raku](https://www.raku.org/)
+* credit - [Java](https://www.java.com/en/)
+* contact - [Unlambda](https://en.wikipedia.org/wiki/Unlambda)
 * everything else - [Batch](https://en.wikipedia.org/wiki/Batch_file)
