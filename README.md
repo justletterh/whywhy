@@ -1,8 +1,6 @@
 # About
 This is [this repo](https://github.com/justletterh/why) but only including the code i wrote. (this version depends on all runtimes instead of including some which should make the download extremely small compared to the full version as well as making it *slightly* faster to run)
 # Dependencies
-* [Visual studio c++ build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
-* add the path to /bin/pcc to your system enviroment variables as PCCDIR
 * [Python 3.7+](https://www.python.org/downloads/)
 * [NodeJS](https://nodejs.org/en/download/)
 * [Ruby](https://www.ruby-lang.org/en/downloads/)
