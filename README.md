@@ -1,5 +1,5 @@
 # About
-This is just a extremely over complicated hello world program that I split between several programming languages.
+This is [this repo](https://github.com/justletterh/why) but only including the code i wrote
 # Dependencies
 * [Visual studio c++ build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 * add the path to /bin/pcc to your system enviroment variables as PCCDIR
