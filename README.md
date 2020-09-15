@@ -1,14 +1,21 @@
 # About
-This is [this repo](https://github.com/justletterh/why) but only including the code i wrote. (soon to be rewritten to depend on all runtimes instead of including some which should make the download extremely small compared to the full version as well as making it *slightly* faster to run)
+This is [this repo](https://github.com/justletterh/why) but only including the code i wrote. (this version depends on all runtimes instead of including some which should make the download extremely small compared to the full version as well as making it *slightly* faster to run)
 # Dependencies
 * [Visual studio c++ build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 * add the path to /bin/pcc to your system enviroment variables as PCCDIR
-* [Python 3.7](https://www.python.org/downloads/)
+* [Python 3.7+](https://www.python.org/downloads/)
 * [NodeJS](https://nodejs.org/en/download/)
 * [Ruby](https://www.ruby-lang.org/en/downloads/)
 * [GoLang](https://golang.org/dl/)
 * [Cygwin](https://cygwin.com/install.html)
 * [Rust](https://www.rust-lang.org/tools/install)
+* [Lua](https://www.lua.org/download.html)
+* [GCC](https://gcc.gnu.org/install/binaries.html)
+* [Perl](https://www.perl.org/get.html)
+* [PHP](https://www.php.net/downloads)
+* [TCL](https://www.tcl.tk/software/tcltk/8.6.html)
+* [Raku](https://www.raku.org/downloads)
+* [JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 ## Languages Used
 * H - [Python](https://www.python.org/)
 * e - [Node JS](https://nodejs.org/en/)
